@@ -1,0 +1,102 @@
+{
+  "scope": "three-site regulated Euclidean scalar model; no continuum or scattering claim",
+  "parameters": {
+    "mass_squared": 1,
+    "hbar": 1,
+    "kappa": 0.7,
+    "cutoff": 6.0,
+    "nodes": 80,
+    "mirror_steps": 100,
+    "mirror_step_size": 0.25
+  },
+  "series_convention": "Taylor coefficients at zero coupling, with the normalized ratio explicitly re-expanded; no resummation",
+  "perturbative_coefficients_80": {
+    "variance_middle": [
+      0.5483870967712691,
+      -0.11719192711211923,
+      0.0731499630810175
+    ],
+    "fourth_moment_middle": [
+      0.9021852237041487,
+      -0.48123648384128037,
+      0.4169813813851474
+    ],
+    "endpoint_correlation": [
+      0.092979127131113,
+      -0.05712798325867254,
+      0.04746671707607287
+    ],
+    "connected_fourth_middle": [
+      -1.1514900144504736e-11,
+      -0.09563723979700889,
+      0.13509256274684245
+    ],
+    "free_energy": [
+      0.0,
+      0.15360432287621623,
+      -0.048910520662992354
+    ]
+  },
+  "coefficient_refinement_80_to_96_max_abs_difference": 5.551115123125783e-16,
+  "results": {
+    "0.5": {
+      "full_minimization": {
+        "variance_middle": 0.5025369387939602,
+        "connected_fourth_middle": -0.027998507800423678,
+        "endpoint_correlation": 0.07232028936192371,
+        "free_energy": 0.06737943852772516,
+        "normalization_error": 0.0,
+        "centered_gradient_rms": 3.499126496771388e-14
+      },
+      "adaptive_reference": {
+        "partition": 6.413601565318356,
+        "variance_middle": 0.5025369387939487,
+        "connected_fourth_middle": -0.02799850780042934,
+        "endpoint_correlation": 0.07232028936191885,
+        "adaptive_error_estimate": 4.956041533468554e-13,
+        "free_energy": 0.0673794385277256
+      }
+    },
+    "2.0": {
+      "full_minimization": {
+        "variance_middle": 0.42805664142091,
+        "connected_fourth_middle": -0.046916803139299024,
+        "endpoint_correlation": 0.04529325071136266,
+        "free_energy": 0.2109489400303337,
+        "normalization_error": 2.220446049250313e-16,
+        "centered_gradient_rms": 8.194628485989387e-14
+      },
+      "adaptive_reference": {
+        "partition": 5.555850286786601,
+        "variance_middle": 0.42805664142088734,
+        "connected_fourth_middle": -0.04691680313930113,
+        "endpoint_correlation": 0.04529325071135566,
+        "adaptive_error_estimate": 5.237557592605211e-13,
+        "free_energy": 0.21094894003033385
+      }
+    },
+    "4.0": {
+      "full_minimization": {
+        "variance_middle": 0.37529865891476355,
+        "connected_fourth_middle": -0.04847401914759042,
+        "endpoint_correlation": 0.030630632653846412,
+        "free_energy": 0.3437916737622725,
+        "normalization_error": 3.3306690738754696e-16,
+        "centered_gradient_rms": 1.1077630781447134e-13
+      },
+      "adaptive_reference": {
+        "partition": 4.864717978950289,
+        "variance_middle": 0.375298658914738,
+        "connected_fourth_middle": -0.0484740191475902,
+        "endpoint_correlation": 0.03063063265384011,
+        "adaptive_error_estimate": 9.522873173548914e-12,
+        "free_energy": 0.34379167376227354
+      }
+    }
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}
